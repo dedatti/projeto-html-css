@@ -23,7 +23,10 @@ h1 {
 }
 
 h2 {
-    color: #01796de5;
+    color:#01796de5 ;
+}
+.subtitulo {
+    text-decoration: underline;
 }
 
 p {
@@ -51,7 +54,4 @@ a:visited {
     font-weight: bolder;
     font-size: 3em;
 
-}
-picture {
-    text-align: justify;
 }
