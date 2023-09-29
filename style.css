@@ -10,21 +10,13 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #042940, #005C53);
-}
-main {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px #010b1188 ;
-    width: 600px;
-    padding: 10px;
-    margin: auto;
+    background-image: linear-gradient(to right, #736a6a, #222222);
 }
 
 h1 {
-    color: #014b43d3;
-    text-align: center;
-    text-shadow: 1px 1px 2px ;
+    color: rgb(57, 136, 139);
+    font-size: 2em;
+    font-weight: bold;
 }
 
 h2 {
@@ -36,32 +28,94 @@ h2 {
 
 p {
     text-align: justify;
-
 }
 
-a {
-    text-decoration: none;
-    color: #108ad6;
-}
-
-a:hover {
-    text-decoration: underline;
-    font-weight: bold;
-}
 
 a:visited {
     text-decoration: none;
-    color: rgb(178, 10, 178);
+    color: cadetblue;
 }
 
 #principal {
-    color: #7310d6;
+    color: #5e5e5f;
     font-weight: bolder;
     font-size: 3em;
     font-family: 'Indie Flower', cursive;
+    text-decoration: underline;
 
 }
 .fontes {
     font-family:'Work Sans', sans-serif;
     text-indent: 25px;
+}
+
+header {
+    background-color: white;
+    height: 150px;
+    width: 850px;
+    border: 50px;
+    padding: 10px;
+    margin: 20px auto 20px auto;
+    text-align: center;
+    text-shadow: 1px 1px 2px ;
+    border-radius: 10px;
+}
+
+nav {
+    padding: 3px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: cadetblue;
+    font-weight: normal;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(61, 102, 103);
+}
+
+.segundotitulo {
+    font-size: 3em;
+    color: rgb(85, 141, 143);
+    font-weight: bold;
+}
+main {
+    background-color: white;
+    border-radius: 10px;
+    width: 1000px;
+    padding: 30px;
+    margin: auto;
+}
+
+footer {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    height: 50px;
+    width: 450px;
+    margin: 10px auto 10px auto;
+    padding: 1px;
+}
+
+footer > p {
+    text-align: center;
+}
+
+aside {
+    background-color: aquamarine;
+    color: rgb(33, 97, 98);
+    width: 210px;
+    height: 20px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 10px;
 }
