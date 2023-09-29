@@ -30,3 +30,28 @@ p {
     text-align: justify;
 
 }
+
+a {
+    text-decoration: none;
+    color: #108ad6;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(178, 10, 178);
+}
+
+#principal {
+    color: #108ad6;
+    font-weight: bolder;
+    font-size: 3em;
+
+}
+picture {
+    text-align: justify;
+}
